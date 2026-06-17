@@ -5,13 +5,6 @@
     <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=28&pause=1000&center=true&vCenter=true&width=800&lines=Dhruv+Jain;Information+Technology+Student;Practicing+DSA+in+C%2B%2B;Learning+React;Aspiring+Software+Engineer" alt="Typing SVG" />
   </a>
 </p>
-🎓 Information Technology Student at BPIT (2028)
-
-💻 Learning React and modern web development
-
-🧠 Practicing Data Structures & Algorithms in C++
-
-🎯 Aspiring Software Engineer
 
 ---
 
