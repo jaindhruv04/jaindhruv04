@@ -16,7 +16,7 @@ jobs:
       - name: Checkout profile repo
         uses: actions/checkout@v4
 
-      - name: Generate dashboard
+      - name: Generate live dashboard and language SVG
         uses: actions/github-script@v7
         with:
           script: |
@@ -66,18 +66,87 @@ jobs:
               dashboard += `| [${repo.name}](${repo.html_url}) | ${latestCommit} | ${updatedDate} |\n`;
             }
 
-            const readmePath = "README.md";
-            let readme = fs.readFileSync(readmePath, "utf8");
+            let readme = fs.readFileSync("README.md", "utf8");
 
             const start = "<!--START_SECTION:live_dashboard-->";
             const end = "<!--END_SECTION:live_dashboard-->";
 
-            const updatedReadme = readme.replace(
+            readme = readme.replace(
               new RegExp(`${start}[\\s\\S]*${end}`),
               `${start}\n${dashboard}\n${end}`
             );
 
-            fs.writeFileSync(readmePath, updatedReadme);
+            fs.writeFileSync("README.md", readme);
+
+            const languageTotals = {
+              "C++": 0,
+              "JavaScript": 0,
+              "HTML": 0
+            };
+
+            for (const repo of activeRepos) {
+              try {
+                const { data: languages } = await github.rest.repos.listLanguages({
+                  owner: username,
+                  repo: repo.name
+                });
+
+                languageTotals["C++"] += languages["C++"] || 0;
+                languageTotals["JavaScript"] += languages["JavaScript"] || 0;
+                languageTotals["HTML"] += languages["HTML"] || 0;
+              } catch (error) {}
+            }
+
+            const total =
+              languageTotals["C++"] +
+              languageTotals["JavaScript"] +
+              languageTotals["HTML"];
+
+            const getPercent = (value) => {
+              if (total === 0) return 0;
+              return Math.round((value / total) * 100);
+            };
+
+            const cpp = getPercent(languageTotals["C++"]);
+            const js = getPercent(languageTotals["JavaScript"]);
+            const html = getPercent(languageTotals["HTML"]);
+
+            const bar = (percent) => {
+              const filled = Math.round(percent / 5);
+              const empty = 20 - filled;
+              return "█".repeat(filled) + "░".repeat(empty);
+            };
+
+            const svg = `
+            <svg width="520" height="170" xmlns="http://www.w3.org/2000/svg">
+              <rect width="520" height="170" rx="14" fill="#0d1117"/>
+              <text x="260" y="32" text-anchor="middle" fill="#c9d1d9" font-size="18" font-family="Segoe UI, Arial" font-weight="600">
+                Current Language Focus
+              </text>
+
+              <text x="40" y="70" fill="#c9d1d9" font-size="15" font-family="Segoe UI, Arial">C++</text>
+              <text x="150" y="70" fill="#58a6ff" font-size="15" font-family="monospace">${bar(cpp)}</text>
+              <text x="430" y="70" fill="#c9d1d9" font-size="15" font-family="Segoe UI, Arial">${cpp}%</text>
+
+              <text x="40" y="105" fill="#c9d1d9" font-size="15" font-family="Segoe UI, Arial">JavaScript</text>
+              <text x="150" y="105" fill="#f1e05a" font-size="15" font-family="monospace">${bar(js)}</text>
+              <text x="430" y="105" fill="#c9d1d9" font-size="15" font-family="Segoe UI, Arial">${js}%</text>
+
+              <text x="40" y="140" fill="#c9d1d9" font-size="15" font-family="Segoe UI, Arial">HTML</text>
+              <text x="150" y="140" fill="#e34c26" font-size="15" font-family="monospace">${bar(html)}</text>
+              <text x="430" y="140" fill="#c9d1d9" font-size="15" font-family="Segoe UI, Arial">${html}%</text>
+            </svg>`;
+
+            fs.mkdirSync("dist", { recursive: true });
+            fs.writeFileSync("dist/language-focus.svg", svg);
+
+      - name: Push SVG to output branch
+        uses: crazy-max/ghaction-github-pages@v3
+        with:
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Commit updated README
         run: |
