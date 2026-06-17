@@ -1,9 +1,13 @@
-<!-- <h1 align="center">Hi 👋, I'm Dhruv Jain</h1> -->
+<h1 align="center">Dhruv Jain 👋</h1>
 
 <p align="center">
-  <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=28&pause=1000&center=true&vCenter=true&width=800&lines=Dhruv+Jain;Information+Technology+Student;Practicing+DSA+in+C%2B%2B;Learning+React;Aspiring+Software+Engineer" alt="Typing SVG" />
-  </a>
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=24&pause=1000&center=true&vCenter=true&width=800&lines=Information+Technology+Student+%40+BPIT;Practicing+DSA+in+C%2B%2B;Learning+React;Building+Skills+One+Commit+at+a+Time" />
+</p>
+
+<p align="center">
+  <a href="https://www.linkedin.com/in/dhruv-jain04/">LinkedIn</a> •
+  <a href="https://leetcode.com/u/jaindhruv/">LeetCode</a> •
+  <a href="https://github.com/jaindhruv04">GitHub</a>
 </p>
 
 ## 🚀 Current Focus
