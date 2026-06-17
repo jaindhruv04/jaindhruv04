@@ -19,21 +19,13 @@
 </p>
 
 ---
-
 ## 📊 Live Learning Dashboard
 
 <!--START_SECTION:live_dashboard-->
-| Repository | Latest Activity | Updated |
-|------------|----------------|---------|
-| [chai-aur-react](https://github.com/jaindhruv04/chai-aur-react) | Create README.md for Chai Aur React projects | 2026-06-13 |
-| [skills-introduction-to-github](https://github.com/jaindhruv04/skills-introduction-to-github) | Update to 1 in STEP and README.md | 2025-12-02 |
-| [FinStack](https://github.com/jaindhruv04/FinStack) | Added Home Button | 2025-04-07 |
-
+Loading latest GitHub activity...
 <!--END_SECTION:live_dashboard-->
 
-<p align="center">
-  <img src="https://raw.githubusercontent.com/jaindhruv04/jaindhruv04/main/language-focus.svg" width="520" alt="Current Language Focus" />
-</p>
+<img src="https://raw.githubusercontent.com/jaindhruv04/jaindhruv04/main/language-focus.svg" width="520" alt="Current Language Focus" />
 
 ---
 
