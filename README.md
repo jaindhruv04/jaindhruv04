@@ -31,6 +31,10 @@
 
 <!--END_SECTION:live_dashboard-->
 
+<p align="center">
+  <img src="https://raw.githubusercontent.com/jaindhruv04/jaindhruv04/main/language-focus.svg" width="520" alt="Current Language Focus" />
+</p>
+
 ---
 
 ## 🛠️ Tech Stack
