@@ -21,14 +21,9 @@
 
 ## 🛠️ Tech Stack
 
-### Languages
-C • C++ • Java • JavaScript • HTML • CSS
-
-### Technologies & Tools
-React • Tailwind CSS • Git • GitHub
-
-### Computer Science Fundamentals
-DBMS • Object-Oriented Programming
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=c,cpp,java,js,react,tailwind,git,github,vscode,clion" />
+</p>
 
 ---
 
