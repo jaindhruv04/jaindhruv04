@@ -94,12 +94,13 @@
 
 ## 📈 GitHub Analytics
 
-<p align="center">
-  <img
-    src="https://github-readme-stats.vercel.app/api?username=jaindhruv04&show_icons=true&rank_icon=github&theme=github_dark&cache_seconds=1800"
-    height="170"
-  />
-</p>
+<!--START_SECTION:github_analytics-->
+| Metric | Value |
+|--------|-------|
+| Latest Commit | Loading... |
+| Active Repositories | Loading... |
+| Last Updated | Loading... |
+<!--END_SECTION:github_analytics-->
 
 ---
 
