@@ -22,28 +22,9 @@
 
 ## 📊 Live Learning Dashboard
 
-<table>
-  <tr>
-    <td width="33%">
-      <h3 align="center">chai-aur-react</h3>
-      <p align="center">
-        Learning React through hands-on practice, components, hooks, routing, and frontend concepts.
-      </p>
-    </td>
-    <td width="33%">
-      <h3 align="center">DSA Practice</h3>
-      <p align="center">
-        Practicing Data Structures & Algorithms in C++ and solving LeetCode problems for interviews.
-      </p>
-    </td>
-    <td width="33%">
-      <h3 align="center">GitHub Profile</h3>
-      <p align="center">
-        Organizing repositories, improving README structure, and building a cleaner developer profile.
-      </p>
-    </td>
-  </tr>
-</table>
+<!--START_SECTION:live_dashboard-->
+Loading latest GitHub activity...
+<!--END_SECTION:live_dashboard-->
 
 ---
 
@@ -83,15 +64,6 @@ Actively practicing Data Structures & Algorithms in C++ and solving problems on 
 
 ---
 
-## 🎯 2026 Objectives
-
-- [ ] Build 3 Original React Projects
-- [ ] Solve 300 LeetCode Problems
-- [ ] Learn Backend Development
-- [ ] Create Portfolio Website
-- [ ] Secure Software Engineering Internship
-
----
 
 ## 🐍 Contribution Snake
 
