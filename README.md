@@ -22,34 +22,28 @@
 
 ## 📊 Live Learning Dashboard
 
-```yaml
-Status:
-  Student: BPIT IT '28
-
-Learning:
-  - React
-  - Modern JavaScript
-  - Frontend Development
-
-Practicing:
-  - Data Structures & Algorithms in C++
-
-Building:
-  - First Original React Project
-
-Target:
-  - Software Engineering Internship
-```
-
----
-
-## 🎯 Current Mission
-
-```text
-Complete React → Build Original Projects → Internship
-                ▲
-          Current Position
-```
+<table>
+  <tr>
+    <td width="33%">
+      <h3 align="center">chai-aur-react</h3>
+      <p align="center">
+        Learning React through hands-on practice, components, hooks, routing, and frontend concepts.
+      </p>
+    </td>
+    <td width="33%">
+      <h3 align="center">DSA Practice</h3>
+      <p align="center">
+        Practicing Data Structures & Algorithms in C++ and solving LeetCode problems for interviews.
+      </p>
+    </td>
+    <td width="33%">
+      <h3 align="center">GitHub Profile</h3>
+      <p align="center">
+        Organizing repositories, improving README structure, and building a cleaner developer profile.
+      </p>
+    </td>
+  </tr>
+</table>
 
 ---
 
@@ -64,12 +58,8 @@ Complete React → Build Original Projects → Internship
 ## 📈 GitHub Analytics
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=jaindhruv04&show_icons=true&rank_icon=github" width="49%" alt="GitHub Stats" />
-  <img src="https://streak-stats.demolab.com?user=jaindhruv04" width="49%" alt="GitHub Streak" />
-</p>
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=jaindhruv04&layout=compact" width="40%" alt="Top Languages" />
+  <img src="https://github-readme-stats.vercel.app/api?username=jaindhruv04&show_icons=true&rank_icon=github" height="180" alt="GitHub Stats" />
+  <img src="https://streak-stats.demolab.com?user=jaindhruv04" height="180" alt="GitHub Streak" />
 </p>
 
 ---
