@@ -1,7 +1,7 @@
 <h1 align="center">Dhruv Jain 👋</h1>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=24&pause=1000&center=true&vCenter=true&width=850&lines=Information+Technology+Student+%40+BPIT;Practicing+DSA+in+C%2B%2B;Learning+React;Building+Skills+One+Commit+at+a+Time" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=24&pause=1000&center=true&vCenter=true&width=850&lines=Information+Technology+Student+%40+BPIT;Learning+React+%26+Modern+Web+Development;Practicing+DSA+in+C%2B%2B;Aspiring+Software+Engineer" alt="Typing SVG" />
 </p>
 
 <p align="center">
@@ -27,7 +27,7 @@ Loading latest GitHub activity...
 <!--END_SECTION:live_dashboard-->
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/jaindhruv04/jaindhruv04/output/language-focus.svg" width="520" alt="Current Language Focus" />
+  <img src="https://raw.githubusercontent.com/jaindhruv04/jaindhruv04/main/language-focus.svg" width="520" alt="Current Language Focus" />
 </p>
 
 ---
@@ -55,25 +55,15 @@ Loading latest GitHub activity...
 
 ---
 
-## 📈 Contribution Graph
+## 🎯 2026 Goals
 
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=jaindhruv04&theme=github-dark" alt="GitHub Activity Graph" />
-</p>
-
----
-
-## 🧩 DSA
-
-Actively practicing Data Structures & Algorithms in C++ and solving problems on LeetCode to improve:
-
-- Problem Solving
-- Pattern Recognition
-- Algorithmic Thinking
-- Interview Readiness
+- [ ] Build 3 Original React Projects
+- [ ] Solve 300 LeetCode Problems
+- [ ] Learn Backend Development
+- [ ] Create Portfolio Website
+- [ ] Secure Software Engineering Internship
 
 ---
-
 
 ## 🐍 Contribution Snake
 
