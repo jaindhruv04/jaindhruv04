@@ -30,7 +30,12 @@
 
 <!--END_SECTION:live_dashboard-->
 
-<img src="https://raw.githubusercontent.com/jaindhruv04/jaindhruv04/main/language-focus.svg" width="520" alt="Current Language Focus" />
+## 💻 Current Language Focus
+
+<!--START_SECTION:language_focus-->
+| Language | Usage |
+|----------|-------|
+<!--END_SECTION:language_focus-->
 
 ---
 
