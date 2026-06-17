@@ -19,28 +19,27 @@
 </p>
 
 ---
+
 ## 📊 Live Learning Dashboard
+
+<div align="center">
 
 <!--START_SECTION:live_dashboard-->
 | Repository | Latest Activity | Updated |
 |------------|----------------|---------|
-| [CPP-DSA-Leetcode](https://github.com/jaindhruv04/CPP-DSA-Leetcode) | Add implementation of search in rotated sorted array | 2026-06-17 |
-| [chai-aur-react](https://github.com/jaindhruv04/chai-aur-react) | Create README.md for Chai Aur React projects | 2026-06-13 |
-| [skills-introduction-to-github](https://github.com/jaindhruv04/skills-introduction-to-github) | Update to 1 in STEP and README.md | 2025-12-02 |
-
+| Loading... | Waiting for workflow | -- |
 <!--END_SECTION:live_dashboard-->
+
+</div>
 
 ## 💻 Current Language Focus
 
-<!--START_SECTION:language_focus-->
-| Language | Usage |
-|----------|-------|
-| JavaScript | 51% |
-| CSS | 26% |
-| HTML | 15% |
-| C++ | 7% |
-
-<!--END_SECTION:language_focus-->
+<p align="center">
+  <img
+    src="https://github-readme-stats.vercel.app/api/top-langs/?username=jaindhruv04&layout=compact&theme=github_dark&langs_count=8&cache_seconds=1800"
+    alt="Most Used Languages"
+  />
+</p>
 
 ---
 
@@ -92,25 +91,11 @@
 
 ## 📈 GitHub Analytics
 
-<table align="center">
-<tr>
-<td>
-
-<img src="https://github-readme-stats.vercel.app/api?username=jaindhruv04&show_icons=true&rank_icon=github&theme=github_dark&cache_seconds=1800" height="170" />
-
-</td>
-<td>
-
-<img src="https://streak-stats.demolab.com?user=jaindhruv04&theme=github-dark-blue" height="170" />
-
-</td>
-</tr>
-</table>
-
-<br>
-
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=jaindhruv04&layout=compact&theme=github_dark&cache_seconds=1800" />
+  <img
+    src="https://github-readme-stats.vercel.app/api?username=jaindhruv04&show_icons=true&rank_icon=github&theme=github_dark&cache_seconds=1800"
+    height="170"
+  />
 </p>
 
 ---
