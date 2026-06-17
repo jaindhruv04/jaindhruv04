@@ -39,10 +39,11 @@ jobs:
               .filter(repo => repo.name !== username);
 
             const dashboardRepos = allActiveRepos.slice(0, 3);
-            const languageRepos = allActiveRepos.slice(0, 10);
 
             let dashboardTable = `| Repository | Latest Activity | Updated |\n`;
             dashboardTable += `|------------|----------------|---------|\n`;
+
+            let latestCommitMessage = "No recent commits";
 
             for (const repo of dashboardRepos) {
               let commitMessage = "No recent commits";
@@ -59,6 +60,10 @@ jobs:
                     .split("\n")[0]
                     .replace(/\|/g, "-")
                     .substring(0, 60);
+
+                  if (latestCommitMessage === "No recent commits") {
+                    latestCommitMessage = commitMessage;
+                  }
                 }
               } catch (error) {}
 
@@ -69,41 +74,13 @@ jobs:
               dashboardTable += `| [${repo.name}](${repo.html_url}) | ${commitMessage} | ${updated} |\n`;
             }
 
-            const languageTotals = {};
+            const now = new Date().toISOString().replace("T", " ").substring(0, 19);
 
-            for (const repo of languageRepos) {
-              try {
-                const { data: languages } = await github.rest.repos.listLanguages({
-                  owner: username,
-                  repo: repo.name
-                });
-
-                for (const [language, bytes] of Object.entries(languages)) {
-                  languageTotals[language] = (languageTotals[language] || 0) + bytes;
-                }
-              } catch (error) {}
-            }
-
-            const sortedLanguages = Object.entries(languageTotals)
-              .sort((a, b) => b[1] - a[1])
-              .slice(0, 5);
-
-            const totalBytes = sortedLanguages.reduce((sum, [, bytes]) => sum + bytes, 0);
-
-            let languageTable = `| Language | Usage |\n`;
-            languageTable += `|----------|-------|\n`;
-
-            if (sortedLanguages.length === 0) {
-              languageTable += `| No data yet | 0% |\n`;
-            } else {
-              for (const [language, bytes] of sortedLanguages) {
-                const percent = totalBytes === 0
-                  ? 0
-                  : Math.round((bytes / totalBytes) * 100);
-
-                languageTable += `| ${language} | ${percent}% |\n`;
-              }
-            }
+            let analyticsTable = `| Metric | Value |\n`;
+            analyticsTable += `|--------|-------|\n`;
+            analyticsTable += `| Latest Commit | ${latestCommitMessage} |\n`;
+            analyticsTable += `| Active Repositories | ${allActiveRepos.length} |\n`;
+            analyticsTable += `| Last Updated | ${now} UTC |\n`;
 
             let readme = fs.readFileSync("README.md", "utf8");
 
@@ -113,8 +90,8 @@ jobs:
             );
 
             readme = readme.replace(
-              /<!--START_SECTION:language_focus-->[\s\S]*<!--END_SECTION:language_focus-->/,
-              `<!--START_SECTION:language_focus-->\n${languageTable}\n<!--END_SECTION:language_focus-->`
+              /<!--START_SECTION:github_analytics-->[\s\S]*<!--END_SECTION:github_analytics-->/,
+              `<!--START_SECTION:github_analytics-->\n${analyticsTable}\n<!--END_SECTION:github_analytics-->`
             );
 
             fs.writeFileSync("README.md", readme);
