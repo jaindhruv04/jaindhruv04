@@ -25,21 +25,17 @@
 <div align="center">
 
 <!--START_SECTION:live_dashboard-->
-| Repository | Latest Activity | Updated |
-|------------|----------------|---------|
-| [CPP-DSA-Leetcode](https://github.com/jaindhruv04/CPP-DSA-Leetcode) | Add implementation of search in rotated sorted array | 2026-06-17 |
-| [chai-aur-react](https://github.com/jaindhruv04/chai-aur-react) | Create README.md for Chai Aur React projects | 2026-06-13 |
-| [skills-introduction-to-github](https://github.com/jaindhruv04/skills-introduction-to-github) | Update to 1 in STEP and README.md | 2025-12-02 |
-
 <!--END_SECTION:live_dashboard-->
 
 </div>
+
+---
 
 ## 💻 Current Language Focus
 
 <p align="center">
   <img
-    src="https://github-readme-stats.vercel.app/api/top-langs/?username=jaindhruv04&layout=compact&theme=github_dark&langs_count=8&cache_seconds=1800"
+    src="https://github-readme-stats.vercel.app/api/top-langs/?username=jaindhruv04&layout=compact&theme=github_dark&langs_count=8&cache_seconds=300"
     alt="Most Used Languages"
   />
 </p>
@@ -49,45 +45,7 @@
 ## 🛠️ Tech Stack
 
 <p align="center">
-  <a href="https://en.wikipedia.org/wiki/C_(programming_language)">
-    <img src="https://skillicons.dev/icons?i=c" />
-  </a>
-
-  <a href="https://en.wikipedia.org/wiki/C%2B%2B">
-    <img src="https://skillicons.dev/icons?i=cpp" />
-  </a>
-
-  <a href="https://en.wikipedia.org/wiki/Java_(programming_language)">
-    <img src="https://skillicons.dev/icons?i=java" />
-  </a>
-
-  <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">
-    <img src="https://skillicons.dev/icons?i=js" />
-  </a>
-
-  <a href="https://react.dev/">
-    <img src="https://skillicons.dev/icons?i=react" />
-  </a>
-
-  <a href="https://tailwindcss.com/">
-    <img src="https://skillicons.dev/icons?i=tailwind" />
-  </a>
-
-  <a href="https://git-scm.com/">
-    <img src="https://skillicons.dev/icons?i=git" />
-  </a>
-
-  <a href="https://github.com/">
-    <img src="https://skillicons.dev/icons?i=github" />
-  </a>
-
-  <a href="https://code.visualstudio.com/">
-    <img src="https://skillicons.dev/icons?i=vscode" />
-  </a>
-
-  <a href="https://www.jetbrains.com/clion/">
-    <img src="https://skillicons.dev/icons?i=clion" />
-  </a>
+  <img src="https://skillicons.dev/icons?i=c,cpp,java,js,react,tailwind,git,github,vscode,clion" />
 </p>
 
 ---
@@ -97,28 +55,11 @@
 <div align="center">
 
 <!--START_SECTION:github_analytics-->
-
-<table align="center">
-<tr>
-<th>Metric</th>
-<th>Value</th>
-</tr>
-<tr>
-<td>Total Commits</td>
-<td>91</td>
-</tr>
-<tr>
-<td>Current Streak</td>
-<td>1 days</td>
-</tr>
-</table>
-
 <!--END_SECTION:github_analytics-->
 
 </div>
 
-</div>
-
+---
 
 ## 🐍 Contribution Snake
 
