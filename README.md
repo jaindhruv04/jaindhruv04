@@ -35,6 +35,11 @@
 <!--START_SECTION:language_focus-->
 | Language | Usage |
 |----------|-------|
+| JavaScript | 65% |
+| CSS | 18% |
+| C++ | 12% |
+| HTML | 5% |
+
 <!--END_SECTION:language_focus-->
 
 ---
