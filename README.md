@@ -67,8 +67,8 @@
 <th>Value</th>
 </tr>
 <tr>
-<td>Total Contributions</td>
-<td>85</td>
+<td>Total Commits</td>
+<td>94</td>
 </tr>
 <tr>
 <td>Current Streak</td>
