@@ -70,40 +70,48 @@ jobs:
               dashboardTable += "| [" + repo.name + "](" + repo.html_url + ") | " + commitMessage + " | " + updated + " |\n";
             }
 
-            const query = [
-              "query($login: String!) {",
-              "  user(login: $login) {",
-              "    contributionsCollection {",
-              "      contributionCalendar {",
-              "        totalContributions",
-              "        weeks {",
-              "          contributionDays {",
-              "            date",
-              "            contributionCount",
-              "          }",
-              "        }",
-              "      }",
-              "    }",
-              "  }",
-              "}"
-            ].join("\n");
+            let totalCommits = 0;
+            const commitDates = new Set();
 
-            const result = await github.graphql(query, {
-              login: username
-            });
+            for (const repo of activeRepos) {
+              try {
+                let page = 1;
 
-            const calendar = result.user.contributionsCollection.contributionCalendar;
-            const totalContributions = calendar.totalContributions;
+                while (true) {
+                  const { data: commits } = await github.rest.repos.listCommits({
+                    owner: username,
+                    repo: repo.name,
+                    per_page: 100,
+                    page: page
+                  });
 
-            const days = calendar.weeks
-              .flatMap(week => week.contributionDays)
-              .sort((a, b) => new Date(b.date) - new Date(a.date));
+                  if (commits.length === 0) {
+                    break;
+                  }
+
+                  totalCommits += commits.length;
+
+                  for (const commit of commits) {
+                    if (commit.commit && commit.commit.author && commit.commit.author.date) {
+                      const date = commit.commit.author.date.split("T")[0];
+                      commitDates.add(date);
+                    }
+                  }
+
+                  page++;
+                }
+              } catch (error) {}
+            }
 
             let currentStreak = 0;
+            let currentDate = new Date();
 
-            for (const day of days) {
-              if (day.contributionCount > 0) {
+            while (true) {
+              const dateString = currentDate.toISOString().split("T")[0];
+
+              if (commitDates.has(dateString)) {
                 currentStreak++;
+                currentDate.setDate(currentDate.getDate() - 1);
               } else {
                 break;
               }
@@ -116,8 +124,8 @@ jobs:
               '<th>Value</th>',
               '</tr>',
               '<tr>',
-              '<td>Total Contributions</td>',
-              '<td>' + totalContributions + '</td>',
+              '<td>Total Commits</td>',
+              '<td>' + totalCommits + '</td>',
               '</tr>',
               '<tr>',
               '<td>Current Streak</td>',
