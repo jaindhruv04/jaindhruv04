@@ -2,53 +2,48 @@
 
 🎓 Information Technology Student at BPIT (2028)
 
-💻 Currently learning React and modern web development
+💻 Learning React and modern web development
 
 🧠 Practicing Data Structures & Algorithms in C++
 
-🎯 Working towards Software Engineering Internships
+🎯 Aspiring Software Engineer
 
 ---
 
 ## 🚀 Current Focus
 
-- Learning React
-- Strengthening DSA fundamentals
-- Building a strong problem-solving mindset
-- Preparing for technical interviews
+- Learning React and its ecosystem
+- Strengthening DSA problem-solving skills
+- Building a strong foundation in Computer Science
+- Preparing for Software Engineering Internships
 
 ---
 
 ## 🛠️ Tech Stack
 
 ### Languages
-C • C++ • JavaScript • Java • HTML • CSS
+C • C++ • Java • JavaScript • HTML • CSS
 
 ### Technologies & Tools
 React • Tailwind CSS • Git • GitHub
 
-### Core CS Subjects
-DBMS • OOP
+### Computer Science Fundamentals
+DBMS • Object-Oriented Programming
 
 ---
 
 ## 📚 Currently Learning
 
 - React
-- React Router
 - Modern JavaScript
-- Frontend Development Best Practices
+- Frontend Development
+- Software Development Best Practices
 
 ---
 
-## 🧩 DSA Progress
+## 🧩 DSA
 
-- Binary Search
-- Two Pointers
-- Hash Maps
-- Sliding Window
-
-Currently solving problems on LeetCode and improving problem-solving skills.
+Actively practicing Data Structures & Algorithms in C++ and solving problems on LeetCode to improve problem-solving skills and interview readiness.
 
 ---
 
@@ -76,7 +71,10 @@ Currently solving problems on LeetCode and improving problem-solving skills.
 
 - LinkedIn: https://www.linkedin.com/in/dhruv-jain04/
 - LeetCode: https://leetcode.com/u/jaindhruv/
+- GitHub: https://github.com/jaindhruv04
 
 ---
 
-> Consistency compounds. One solved problem and one improved project at a time.
+## 💭 Philosophy
+
+> Consistency compounds. Small improvements made every day lead to meaningful results over time.
