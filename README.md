@@ -1,27 +1,13 @@
 # Hi, I'm Dhruv Jain 👋
 
-## About Me
-
-- 🎓 Student
-- 💻 Learning Data Structures & Algorithms in C++
-- ⚛️ Learning React and modern web development
-- 🚀 Building projects to strengthen problem-solving and development skills
-- 🎯 Goal: Software Engineering Internships and Technical Interviews
+🎓 Student  
+💻 Learning Data Structures & Algorithms in C++  
+⚛️ Learning React and modern web development  
+🚀 Building projects and preparing for software engineering internships
 
 ---
 
-## Currently Learning
-
-- C++
-- Data Structures & Algorithms
-- React
-- React Router
-- Tailwind CSS
-- Git & GitHub
-
----
-
-## Tech Stack
+## 🛠️ Tech Stack
 
 ### Languages
 - C++
@@ -40,36 +26,60 @@
 
 ---
 
-## Projects
+## 📚 Currently Learning
+
+- Data Structures & Algorithms
+- React
+- React Router
+- Tailwind CSS
+- Git & GitHub
+
+---
+
+## 🚀 Projects
 
 ### React Projects
 - Password Generator
 - Currency Converter
-- More projects coming soon...
+- More coming soon...
 
-### DSA
-- Solving problems and learning common interview patterns
+### DSA Journey
+Currently practicing:
 - Binary Search
 - Two Pointers
 - Hash Maps
 - Sliding Window
-- Trees & Graphs (in progress)
+- Trees & Graphs (coming soon)
 
 ---
 
-## Current Goals
+## 🎯 2026 Goals
 
-- Build strong DSA fundamentals
-- Complete multiple React projects
-- Learn backend development
-- Prepare for internship interviews
+- Strengthen DSA fundamentals
+- Build production-quality React projects
+- Learn Backend Development
+- Secure Software Engineering Internship
 
 ---
 
-## Connect With Me
+## 📈 GitHub Stats
+
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=jaindhruv04&show_icons=true)
+
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=jaindhruv04&layout=compact)
+
+---
+
+## 🐍 Contribution Snake
+
+![Snake animation](https://raw.githubusercontent.com/jaindhruv04/jaindhruv04/output/github-contribution-grid-snake.svg)
+
+---
+
+## 🌐 Connect
 
 - GitHub: https://github.com/jaindhruv04
 
 ---
 
-> Consistency beats intensity. A small amount of progress every day compounds over time.
+> Building one project at a time and improving one problem at a time.
