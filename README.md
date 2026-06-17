@@ -24,9 +24,9 @@
 <!--START_SECTION:live_dashboard-->
 | Repository | Latest Activity | Updated |
 |------------|----------------|---------|
+| [CPP-DSA-Leetcode](https://github.com/jaindhruv04/CPP-DSA-Leetcode) | Add implementation of search in rotated sorted array | 2026-06-17 |
 | [chai-aur-react](https://github.com/jaindhruv04/chai-aur-react) | Create README.md for Chai Aur React projects | 2026-06-13 |
 | [skills-introduction-to-github](https://github.com/jaindhruv04/skills-introduction-to-github) | Update to 1 in STEP and README.md | 2025-12-02 |
-| [FinStack](https://github.com/jaindhruv04/FinStack) | Added Home Button | 2025-04-07 |
 
 <!--END_SECTION:live_dashboard-->
 
