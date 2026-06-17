@@ -1,16 +1,75 @@
-## Hi there 👋
+# Hi, I'm Dhruv Jain 👋
 
-<!--
-**jaindhruv04/jaindhruv04** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+## About Me
 
-Here are some ideas to get you started:
+- 🎓 Student
+- 💻 Learning Data Structures & Algorithms in C++
+- ⚛️ Learning React and modern web development
+- 🚀 Building projects to strengthen problem-solving and development skills
+- 🎯 Goal: Software Engineering Internships and Technical Interviews
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+---
+
+## Currently Learning
+
+- C++
+- Data Structures & Algorithms
+- React
+- React Router
+- Tailwind CSS
+- Git & GitHub
+
+---
+
+## Tech Stack
+
+### Languages
+- C++
+- JavaScript
+- HTML
+- CSS
+
+### Tools & Technologies
+- React
+- Tailwind CSS
+- Vite
+- Git
+- GitHub
+- VS Code
+- CLion
+
+---
+
+## Projects
+
+### React Projects
+- Password Generator
+- Currency Converter
+- More projects coming soon...
+
+### DSA
+- Solving problems and learning common interview patterns
+- Binary Search
+- Two Pointers
+- Hash Maps
+- Sliding Window
+- Trees & Graphs (in progress)
+
+---
+
+## Current Goals
+
+- Build strong DSA fundamentals
+- Complete multiple React projects
+- Learn backend development
+- Prepare for internship interviews
+
+---
+
+## Connect With Me
+
+- GitHub: https://github.com/jaindhruv04
+
+---
+
+> Consistency beats intensity. A small amount of progress every day compounds over time.
