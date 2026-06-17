@@ -6,15 +6,15 @@
 
 <p align="center">
   <a href="https://www.linkedin.com/in/dhruv-jain04/">
-    <img src="https://skillicons.dev/icons?i=linkedin" height="45" alt="LinkedIn" />
+    <img src="https://skillicons.dev/icons?i=linkedin" height="45" />
   </a>
   &nbsp;&nbsp;
   <a href="https://leetcode.com/u/jaindhruv/">
-    <img src="https://cdn.simpleicons.org/leetcode" height="45" alt="LeetCode" />
+    <img src="https://cdn.simpleicons.org/leetcode" height="45" />
   </a>
   &nbsp;&nbsp;
   <a href="https://github.com/jaindhruv04">
-    <img src="https://skillicons.dev/icons?i=github" height="45" alt="GitHub" />
+    <img src="https://skillicons.dev/icons?i=github" height="45" />
   </a>
 </p>
 
@@ -26,16 +26,12 @@
 Loading latest GitHub activity...
 <!--END_SECTION:live_dashboard-->
 
-<p align="center">
-  <img src="https://raw.githubusercontent.com/jaindhruv04/jaindhruv04/main/language-focus.svg" width="520" alt="Current Language Focus" />
-</p>
-
 ---
 
 ## 🛠️ Tech Stack
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=c,cpp,java,js,react,tailwind,git,github,vscode,clion" alt="Tech Stack" />
+  <img src="https://skillicons.dev/icons?i=c,cpp,java,js,react,tailwind,git,github,vscode,clion" />
 </p>
 
 ---
@@ -43,30 +39,20 @@ Loading latest GitHub activity...
 ## 📈 GitHub Analytics
 
 <table align="center">
-  <tr>
-    <td>
-      <img src="https://github-readme-stats.vercel.app/api?username=jaindhruv04&show_icons=true&rank_icon=github" height="150" alt="GitHub Stats" />
-    </td>
-    <td>
-      <img src="https://streak-stats.demolab.com?user=jaindhruv04" height="150" alt="GitHub Streak" />
-    </td>
-  </tr>
+<tr>
+<td>
+<img src="https://github-readme-stats.vercel.app/api?username=jaindhruv04&show_icons=true&rank_icon=github&theme=github_dark" height="170" />
+</td>
+<td>
+<img src="https://streak-stats.demolab.com?user=jaindhruv04&theme=github-dark-blue" height="170" />
+</td>
+</tr>
 </table>
-
----
-
-## 🎯 2026 Goals
-
-- [ ] Build 3 Original React Projects
-- [ ] Solve 300 LeetCode Problems
-- [ ] Learn Backend Development
-- [ ] Create Portfolio Website
-- [ ] Secure Software Engineering Internship
 
 ---
 
 ## 🐍 Contribution Snake
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/jaindhruv04/jaindhruv04/output/github-contribution-grid-snake.svg" alt="Snake animation" />
+  <img src="https://raw.githubusercontent.com/jaindhruv04/jaindhruv04/output/github-contribution-grid-snake.svg" />
 </p>
