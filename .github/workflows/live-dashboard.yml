@@ -27,7 +27,7 @@ jobs:
               username,
               sort: 'pushed',
               direction: 'desc',
-              per_page: 8
+              per_page: 10
             });
 
             const activeRepos = repos
@@ -38,12 +38,7 @@ jobs:
             let table = `| Repository | Latest Activity | Updated |\n`;
             table += `|------------|----------------|---------|\n`;
 
-            const languageTotals = {
-              "C++": 0,
-              "JavaScript": 0,
-              "HTML": 0,
-              "CSS": 0
-            };
+            const languageTotals = {};
 
             for (const repo of activeRepos) {
               let commitMessage = "No recent commits";
@@ -68,10 +63,9 @@ jobs:
                   repo: repo.name
                 });
 
-                languageTotals["C++"] += languages["C++"] || 0;
-                languageTotals["JavaScript"] += languages["JavaScript"] || 0;
-                languageTotals["HTML"] += languages["HTML"] || 0;
-                languageTotals["CSS"] += languages["CSS"] || 0;
+                for (const [language, bytes] of Object.entries(languages)) {
+                  languageTotals[language] = (languageTotals[language] || 0) + bytes;
+                }
               } catch {}
 
               const updated = new Date(repo.pushed_at)
@@ -81,44 +75,42 @@ jobs:
               table += `| [${repo.name}](${repo.html_url}) | ${commitMessage} | ${updated} |\n`;
             }
 
-            const total =
-              languageTotals["C++"] +
-              languageTotals["JavaScript"] +
-              languageTotals["HTML"] +
-              languageTotals["CSS"];
+            const sortedLanguages = Object.entries(languageTotals)
+              .sort((a, b) => b[1] - a[1])
+              .slice(0, 5);
 
-            const percent = (value) => total === 0 ? 0 : Math.round((value / total) * 100);
+            const total = sortedLanguages.reduce((sum, [, bytes]) => sum + bytes, 0);
 
-            const cpp = percent(languageTotals["C++"]);
-            const js = percent(languageTotals["JavaScript"]);
-            const html = percent(languageTotals["HTML"]);
-            const css = percent(languageTotals["CSS"]);
+            const colors = [
+              "#58a6ff",
+              "#f1e05a",
+              "#e34c26",
+              "#563d7c",
+              "#2ea043"
+            ];
 
-            const barWidth = (value) => Math.max(4, Math.round(value * 3.2));
+            const barWidth = (percent) => Math.max(4, Math.round(percent * 3.2));
 
-            const svg = `<svg width="520" height="210" xmlns="http://www.w3.org/2000/svg">
-              <rect width="520" height="210" rx="14" fill="#0d1117"/>
+            let languageRows = "";
+
+            sortedLanguages.forEach(([language, bytes], index) => {
+              const percent = total === 0 ? 0 : Math.round((bytes / total) * 100);
+              const y = 75 + index * 35;
+              const color = colors[index % colors.length];
+
+              languageRows += `
+              <text x="40" y="${y}" fill="#c9d1d9" font-size="14" font-family="Segoe UI, Arial">${language}</text>
+              <rect x="160" y="${y - 13}" width="300" height="14" rx="7" fill="#161b22"/>
+              <rect x="160" y="${y - 13}" width="${barWidth(percent)}" height="14" rx="7" fill="${color}"/>
+              <text x="475" y="${y}" fill="#c9d1d9" font-size="14" font-family="Segoe UI, Arial">${percent}%</text>`;
+            });
+
+            const svgHeight = 80 + sortedLanguages.length * 35;
+
+            const svg = `<svg width="520" height="${svgHeight}" xmlns="http://www.w3.org/2000/svg">
+              <rect width="520" height="${svgHeight}" rx="14" fill="#0d1117"/>
               <text x="260" y="34" text-anchor="middle" fill="#c9d1d9" font-size="18" font-family="Segoe UI, Arial" font-weight="600">Current Language Focus</text>
-
-              <text x="40" y="75" fill="#c9d1d9" font-size="14" font-family="Segoe UI, Arial">C++</text>
-              <rect x="140" y="62" width="320" height="14" rx="7" fill="#161b22"/>
-              <rect x="140" y="62" width="${barWidth(cpp)}" height="14" rx="7" fill="#58a6ff"/>
-              <text x="475" y="75" fill="#c9d1d9" font-size="14" font-family="Segoe UI, Arial">${cpp}%</text>
-
-              <text x="40" y="110" fill="#c9d1d9" font-size="14" font-family="Segoe UI, Arial">JavaScript</text>
-              <rect x="140" y="97" width="320" height="14" rx="7" fill="#161b22"/>
-              <rect x="140" y="97" width="${barWidth(js)}" height="14" rx="7" fill="#f1e05a"/>
-              <text x="475" y="110" fill="#c9d1d9" font-size="14" font-family="Segoe UI, Arial">${js}%</text>
-
-              <text x="40" y="145" fill="#c9d1d9" font-size="14" font-family="Segoe UI, Arial">HTML</text>
-              <rect x="140" y="132" width="320" height="14" rx="7" fill="#161b22"/>
-              <rect x="140" y="132" width="${barWidth(html)}" height="14" rx="7" fill="#e34c26"/>
-              <text x="475" y="145" fill="#c9d1d9" font-size="14" font-family="Segoe UI, Arial">${html}%</text>
-
-              <text x="40" y="180" fill="#c9d1d9" font-size="14" font-family="Segoe UI, Arial">CSS</text>
-              <rect x="140" y="167" width="320" height="14" rx="7" fill="#161b22"/>
-              <rect x="140" y="167" width="${barWidth(css)}" height="14" rx="7" fill="#563d7c"/>
-              <text x="475" y="180" fill="#c9d1d9" font-size="14" font-family="Segoe UI, Arial">${css}%</text>
+              ${languageRows}
             </svg>`;
 
             fs.writeFileSync("language-focus.svg", svg);
