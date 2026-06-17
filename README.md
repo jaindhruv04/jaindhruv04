@@ -37,7 +37,45 @@
 ## 🛠️ Tech Stack
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=c,cpp,java,js,react,tailwind,git,github,vscode,clion" />
+  <a href="https://en.wikipedia.org/wiki/C_(programming_language)">
+    <img src="https://skillicons.dev/icons?i=c" />
+  </a>
+
+  <a href="https://en.wikipedia.org/wiki/C%2B%2B">
+    <img src="https://skillicons.dev/icons?i=cpp" />
+  </a>
+
+  <a href="https://en.wikipedia.org/wiki/Java_(programming_language)">
+    <img src="https://skillicons.dev/icons?i=java" />
+  </a>
+
+  <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">
+    <img src="https://skillicons.dev/icons?i=js" />
+  </a>
+
+  <a href="https://react.dev/">
+    <img src="https://skillicons.dev/icons?i=react" />
+  </a>
+
+  <a href="https://tailwindcss.com/">
+    <img src="https://skillicons.dev/icons?i=tailwind" />
+  </a>
+
+  <a href="https://git-scm.com/">
+    <img src="https://skillicons.dev/icons?i=git" />
+  </a>
+
+  <a href="https://github.com/">
+    <img src="https://skillicons.dev/icons?i=github" />
+  </a>
+
+  <a href="https://code.visualstudio.com/">
+    <img src="https://skillicons.dev/icons?i=vscode" />
+  </a>
+
+  <a href="https://www.jetbrains.com/clion/">
+    <img src="https://skillicons.dev/icons?i=clion" />
+  </a>
 </p>
 
 ---
