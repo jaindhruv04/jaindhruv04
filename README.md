@@ -1,72 +1,68 @@
 # Hi, I'm Dhruv Jain 👋
 
-🎓 Student  
-💻 Learning Data Structures & Algorithms in C++  
-⚛️ Learning React and modern web development  
-🚀 Building projects and preparing for software engineering internships
+🎓 Information Technology Student at BPIT (2028)
+
+💻 Currently learning React and modern web development
+
+🧠 Practicing Data Structures & Algorithms in C++
+
+🎯 Working towards Software Engineering Internships
+
+---
+
+## 🚀 Current Focus
+
+- Learning React
+- Strengthening DSA fundamentals
+- Building a strong problem-solving mindset
+- Preparing for technical interviews
 
 ---
 
 ## 🛠️ Tech Stack
 
 ### Languages
-- C++
-- JavaScript
-- HTML
-- CSS
+C • C++ • JavaScript • Java • HTML • CSS
 
-### Tools & Technologies
-- React
-- Tailwind CSS
-- Vite
-- Git
-- GitHub
-- VS Code
-- CLion
+### Technologies & Tools
+React • Tailwind CSS • Git • GitHub
+
+### Core CS Subjects
+DBMS • OOP
 
 ---
 
 ## 📚 Currently Learning
 
-- Data Structures & Algorithms
 - React
 - React Router
-- Tailwind CSS
-- Git & GitHub
+- Modern JavaScript
+- Frontend Development Best Practices
 
 ---
 
-## 🚀 Projects
+## 🧩 DSA Progress
 
-### React Projects
-- Password Generator
-- Currency Converter
-- More coming soon...
-
-### DSA Journey
-Currently practicing:
 - Binary Search
 - Two Pointers
 - Hash Maps
 - Sliding Window
-- Trees & Graphs (coming soon)
+
+Currently solving problems on LeetCode and improving problem-solving skills.
 
 ---
 
-## 🎯 2026 Goals
-
-- Strengthen DSA fundamentals
-- Build production-quality React projects
-- Learn Backend Development
-- Secure Software Engineering Internship
-
----
-
-## 📈 GitHub Stats
+## 📊 GitHub Stats
 
 ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=jaindhruv04&show_icons=true)
 
 ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=jaindhruv04&layout=compact)
+
+---
+
+## 🔥 GitHub Streak
+
+![GitHub Streak](https://streak-stats.demolab.com?user=jaindhruv04)
 
 ---
 
@@ -76,10 +72,11 @@ Currently practicing:
 
 ---
 
-## 🌐 Connect
+## 🌐 Connect With Me
 
-- GitHub: https://github.com/jaindhruv04
+- LinkedIn: https://www.linkedin.com/in/dhruv-jain04/
+- LeetCode: https://leetcode.com/u/jaindhruv/
 
 ---
 
-> Building one project at a time and improving one problem at a time.
+> Consistency compounds. One solved problem and one improved project at a time.
