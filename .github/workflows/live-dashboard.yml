@@ -26,11 +26,10 @@ jobs:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           script: |
             const fs = require("fs");
-
             const username = "jaindhruv04";
 
             const { data: repos } = await github.rest.repos.listForUser({
-              username,
+              username: username,
               sort: "pushed",
               direction: "desc",
               per_page: 100
@@ -42,8 +41,9 @@ jobs:
 
             const dashboardRepos = activeRepos.slice(0, 3);
 
-            let dashboardTable = `| Repository | Latest Activity | Updated |\n`;
-            dashboardTable += `|------------|----------------|---------|\n`;
+            let dashboardTable = "";
+            dashboardTable += "| Repository | Latest Activity | Updated |\n";
+            dashboardTable += "|------------|----------------|---------|\n";
 
             for (const repo of dashboardRepos) {
               let commitMessage = "No recent commits";
@@ -65,30 +65,28 @@ jobs:
                 commitMessage = "Unable to fetch commit";
               }
 
-              const updated = new Date(repo.pushed_at)
-                .toISOString()
-                .split("T")[0];
+              const updated = new Date(repo.pushed_at).toISOString().split("T")[0];
 
-              dashboardTable += `| [${repo.name}](${repo.html_url}) | ${commitMessage} | ${updated} |\n`;
+              dashboardTable += "| [" + repo.name + "](" + repo.html_url + ") | " + commitMessage + " | " + updated + " |\n";
             }
 
-            const query = `
-              query($login: String!) {
-                user(login: $login) {
-                  contributionsCollection {
-                    contributionCalendar {
-                      totalContributions
-                      weeks {
-                        contributionDays {
-                          date
-                          contributionCount
-                        }
-                      }
-                    }
-                  }
-                }
-              }
-            `;
+            const query = [
+              "query($login: String!) {",
+              "  user(login: $login) {",
+              "    contributionsCollection {",
+              "      contributionCalendar {",
+              "        totalContributions",
+              "        weeks {",
+              "          contributionDays {",
+              "            date",
+              "            contributionCount",
+              "          }",
+              "        }",
+              "      }",
+              "    }",
+              "  }",
+              "}"
+            ].join("\n");
 
             const result = await github.graphql(query, {
               login: username
@@ -111,33 +109,33 @@ jobs:
               }
             }
 
-            const analyticsTable = `
-<table align="center">
-<tr>
-<th>Metric</th>
-<th>Value</th>
-</tr>
-<tr>
-<td>Total Contributions</td>
-<td>${totalContributions}</td>
-</tr>
-<tr>
-<td>Current Streak</td>
-<td>${currentStreak} days</td>
-</tr>
-</table>
-`;
+            const analyticsTable = [
+              '<table align="center">',
+              '<tr>',
+              '<th>Metric</th>',
+              '<th>Value</th>',
+              '</tr>',
+              '<tr>',
+              '<td>Total Contributions</td>',
+              '<td>' + totalContributions + '</td>',
+              '</tr>',
+              '<tr>',
+              '<td>Current Streak</td>',
+              '<td>' + currentStreak + ' days</td>',
+              '</tr>',
+              '</table>'
+            ].join("\n");
 
             let readme = fs.readFileSync("README.md", "utf8");
 
             readme = readme.replace(
               /<!--START_SECTION:live_dashboard-->[\s\S]*<!--END_SECTION:live_dashboard-->/,
-              `<!--START_SECTION:live_dashboard-->\n${dashboardTable}\n<!--END_SECTION:live_dashboard-->`
+              "<!--START_SECTION:live_dashboard-->\n" + dashboardTable + "\n<!--END_SECTION:live_dashboard-->"
             );
 
             readme = readme.replace(
               /<!--START_SECTION:github_analytics-->[\s\S]*<!--END_SECTION:github_analytics-->/,
-              `<!--START_SECTION:github_analytics-->\n${analyticsTable}\n<!--END_SECTION:github_analytics-->`
+              "<!--START_SECTION:github_analytics-->\n" + analyticsTable + "\n<!--END_SECTION:github_analytics-->"
             );
 
             fs.writeFileSync("README.md", readme);
