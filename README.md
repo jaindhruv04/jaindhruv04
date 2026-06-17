@@ -43,17 +43,23 @@
 
 ## 📈 GitHub Analytics
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=jaindhruv04&show_icons=true&rank_icon=github" height="180" alt="GitHub Stats" />
-  <img src="https://streak-stats.demolab.com?user=jaindhruv04" height="180" alt="GitHub Streak" />
-</p>
+<table align="center">
+  <tr>
+    <td>
+      <img src="https://github-readme-stats.vercel.app/api?username=jaindhruv04&show_icons=true&rank_icon=github" height="150" alt="GitHub Stats" />
+    </td>
+    <td>
+      <img src="https://streak-stats.demolab.com?user=jaindhruv04" height="150" alt="GitHub Streak" />
+    </td>
+  </tr>
+</table>
 
 ---
 
 ## 📈 Contribution Graph
 
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=jaindhruv04" alt="GitHub Activity Graph" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=jaindhruv04&theme=github-dark" alt="GitHub Activity Graph" />
 </p>
 
 ---
