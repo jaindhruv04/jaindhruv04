@@ -95,13 +95,23 @@
 <table align="center">
 <tr>
 <td>
-<img src="https://github-readme-stats.vercel.app/api?username=jaindhruv04&show_icons=true&rank_icon=github&theme=github_dark" height="170" />
+
+<img src="https://github-readme-stats.vercel.app/api?username=jaindhruv04&show_icons=true&rank_icon=github&theme=github_dark&cache_seconds=1800" height="170" />
+
 </td>
 <td>
+
 <img src="https://streak-stats.demolab.com?user=jaindhruv04&theme=github-dark-blue" height="170" />
+
 </td>
 </tr>
 </table>
+
+<br>
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=jaindhruv04&layout=compact&theme=github_dark&cache_seconds=1800" />
+</p>
 
 ---
 
