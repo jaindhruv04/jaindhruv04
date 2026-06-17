@@ -97,11 +97,21 @@
 <div align="center">
 
 <!--START_SECTION:github_analytics-->
-| Metric | Value |
-|--------|-------|
-| Latest Commit | Add implementation of search in rotated sorted array |
-| Active Repositories | 8 |
-| Last Updated | 2026-06-17 10:56:48 UTC |
+
+<table align="center">
+<tr>
+<th>Metric</th>
+<th>Value</th>
+</tr>
+<tr>
+<td>Total Commits</td>
+<td>91</td>
+</tr>
+<tr>
+<td>Current Streak</td>
+<td>1 days</td>
+</tr>
+</table>
 
 <!--END_SECTION:github_analytics-->
 
