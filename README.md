@@ -23,7 +23,12 @@
 ## 📊 Live Learning Dashboard
 
 <!--START_SECTION:live_dashboard-->
-Loading latest GitHub activity...
+| Repository | Latest Activity | Updated |
+|------------|----------------|---------|
+| chai-aur-react | Create README.md for Chai Aur React projects | 2026-06-13 |
+| skills-introduction-to-github | Update to 1 in STEP and README.md | 2025-12-02 |
+| FinStack | Added Home Button | 2025-04-07 |
+
 <!--END_SECTION:live_dashboard-->
 
 ---
