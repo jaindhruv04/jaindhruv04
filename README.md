@@ -61,22 +61,20 @@
 <div align="center">
 
 <!--START_SECTION:github_analytics-->
-
 <table align="center">
 <tr>
 <th>Metric</th>
 <th>Value</th>
 </tr>
 <tr>
-<td>Total Commits</td>
-<td>94</td>
+<td>Total Contributions</td>
+<td>85</td>
 </tr>
 <tr>
 <td>Current Streak</td>
 <td>1 days</td>
 </tr>
 </table>
-
 <!--END_SECTION:github_analytics-->
 
 </div>
