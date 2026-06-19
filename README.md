@@ -27,7 +27,7 @@
 <!--START_SECTION:live_dashboard-->
 | Repository | Latest Activity | Updated |
 |------------|----------------|---------|
-| [CPP-DSA-Leetcode](https://github.com/jaindhruv04/CPP-DSA-Leetcode) | Add implementation for swapping nodes in pairs in a linked l | 2026-06-19 |
+| [CPP-DSA-Leetcode](https://github.com/jaindhruv04/CPP-DSA-Leetcode) | Add implementation for removing elements from a linked list | 2026-06-19 |
 | [chai-aur-react](https://github.com/jaindhruv04/chai-aur-react) | Create README.md for Chai Aur React projects | 2026-06-13 |
 | [skills-introduction-to-github](https://github.com/jaindhruv04/skills-introduction-to-github) | Update to 1 in STEP and README.md | 2025-12-02 |
 
@@ -41,7 +41,7 @@
 
 <p align="center">
   <img
-    src="https://github-readme-stats.vercel.app/api/top-langs/?username=jaindhruv04&layout=compact&theme=github_dark&langs_count=8&cache_seconds=300&t=1781854673588"
+    src="https://github-readme-stats.vercel.app/api/top-langs/?username=jaindhruv04&layout=compact&theme=github_dark&langs_count=8&cache_seconds=300&t=1781861314870"
     alt="Most Used Languages"
   />
 </p>
@@ -68,7 +68,7 @@
 </tr>
 <tr>
 <td>Total Commits</td>
-<td>99</td>
+<td>101</td>
 </tr>
 <tr>
 <td>Current Streak</td>
