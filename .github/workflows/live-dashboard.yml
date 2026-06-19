@@ -152,7 +152,6 @@ jobs:
               "<!--START_SECTION:github_analytics-->\n" + analyticsTable + "\n<!--END_SECTION:github_analytics-->"
             );
 
-            // Cache-bust the language stats card URL
             const timestamp = Date.now();
             readme = readme.replace(
               /src="(https:\/\/github-readme-stats\.vercel\.app\/api\/top-langs\/[^"]*?)(?:&t=\d+)?"/,
@@ -170,6 +169,8 @@ jobs:
 
           git diff --cached --quiet && exit 0
 
+          git fetch origin main
+          git reset --soft origin/main
+          git add README.md
           git commit -m "Update live dashboard [skip ci]"
-          git pull --rebase origin main
           git push origin main
