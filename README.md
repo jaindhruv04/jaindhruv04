@@ -27,7 +27,7 @@
 <!--START_SECTION:live_dashboard-->
 | Repository | Latest Activity | Updated |
 |------------|----------------|---------|
-| [CPP-DSA-Leetcode](https://github.com/jaindhruv04/CPP-DSA-Leetcode) | Add implementation for invertTree function to invert a binar | 2026-06-20 |
+| [CPP-DSA-Leetcode](https://github.com/jaindhruv04/CPP-DSA-Leetcode) | Add implementation for isSymmetric function to check if a tr | 2026-06-20 |
 | [chai-aur-react](https://github.com/jaindhruv04/chai-aur-react) | Create README.md for Chai Aur React projects | 2026-06-13 |
 | [skills-introduction-to-github](https://github.com/jaindhruv04/skills-introduction-to-github) | Update to 1 in STEP and README.md | 2025-12-02 |
 
@@ -41,7 +41,7 @@
 
 <p align="center">
   <img
-    src="https://github-readme-stats.vercel.app/api/top-langs/?username=jaindhruv04&layout=compact&theme=github_dark&langs_count=8&cache_seconds=300&t=1781978796451"
+    src="https://github-readme-stats.vercel.app/api/top-langs/?username=jaindhruv04&layout=compact&theme=github_dark&langs_count=8&cache_seconds=300&t=1781985323785"
     alt="Most Used Languages"
   />
 </p>
@@ -68,7 +68,7 @@
 </tr>
 <tr>
 <td>Total Commits</td>
-<td>105</td>
+<td>107</td>
 </tr>
 <tr>
 <td>Current Streak</td>
