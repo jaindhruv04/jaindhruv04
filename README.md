@@ -27,7 +27,7 @@
 <!--START_SECTION:live_dashboard-->
 | Repository | Latest Activity | Updated |
 |------------|----------------|---------|
-| [careeros](https://github.com/jaindhruv04/careeros) | feat: set basename for BrowserRouter to support deployment u | 2026-07-17 |
+| [careeros](https://github.com/jaindhruv04/careeros) | feat: add search and filter functionality to CompanyTracker | 2026-07-17 |
 | [CPP-DSA-Leetcode](https://github.com/jaindhruv04/CPP-DSA-Leetcode) | Add implementation for isValidBST function to validate if a  | 2026-06-21 |
 | [chai-aur-react](https://github.com/jaindhruv04/chai-aur-react) | Create README.md for Chai Aur React projects | 2026-06-13 |
 
@@ -41,7 +41,7 @@
 
 <p align="center">
   <img
-    src="https://github-readme-stats.vercel.app/api/top-langs/?username=jaindhruv04&layout=compact&theme=github_dark&langs_count=8&cache_seconds=300&t=1784321095839"
+    src="https://github-readme-stats.vercel.app/api/top-langs/?username=jaindhruv04&layout=compact&theme=github_dark&langs_count=8&cache_seconds=300&t=1784324149908"
     alt="Most Used Languages"
   />
 </p>
@@ -68,7 +68,7 @@
 </tr>
 <tr>
 <td>Total Commits</td>
-<td>118</td>
+<td>119</td>
 </tr>
 <tr>
 <td>Current Streak</td>
