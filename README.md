@@ -41,7 +41,7 @@
 
 <p align="center">
   <img
-    src="https://github-readme-stats.vercel.app/api/top-langs/?username=jaindhruv04&layout=compact&theme=github_dark&langs_count=8&cache_seconds=300&t=1784502544832"
+    src="https://github-readme-stats.vercel.app/api/top-langs/?username=jaindhruv04&layout=compact&theme=github_dark&langs_count=8&cache_seconds=300&t=1784506193890"
     alt="Most Used Languages"
   />
 </p>
@@ -72,7 +72,7 @@
 </tr>
 <tr>
 <td>Current Streak</td>
-<td>2 days</td>
+<td>0 days</td>
 </tr>
 </table>
 <!--END_SECTION:github_analytics-->
