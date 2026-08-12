@@ -27,7 +27,7 @@
 <!--START_SECTION:live_dashboard-->
 | Repository | Latest Activity | Updated |
 |------------|----------------|---------|
-| [scatch](https://github.com/jaindhruv04/scatch) | Implement routing for owners, users, and products; establish | 2026-08-10 |
+| [scatch](https://github.com/jaindhruv04/scatch) | Update .gitignore, configure MongoDB connection, and enhance | 2026-08-12 |
 | [careeros](https://github.com/jaindhruv04/careeros) | fix: move useNavigate hook declaration for better readabilit | 2026-08-06 |
 | [CPP-DSA-Leetcode](https://github.com/jaindhruv04/CPP-DSA-Leetcode) | Time: 39 ms (48.89%) - Memory: 19.1 MB (55.68%) - LeetSync | 2026-08-04 |
 
@@ -41,7 +41,7 @@
 
 <p align="center">
   <img
-    src="https://github-readme-stats.vercel.app/api/top-langs/?username=jaindhruv04&layout=compact&theme=github_dark&langs_count=8&cache_seconds=300&t=1786570010775"
+    src="https://github-readme-stats.vercel.app/api/top-langs/?username=jaindhruv04&layout=compact&theme=github_dark&langs_count=8&cache_seconds=300&t=1786572592983"
     alt="Most Used Languages"
   />
 </p>
@@ -68,11 +68,11 @@
 </tr>
 <tr>
 <td>Total Commits</td>
-<td>175</td>
+<td>176</td>
 </tr>
 <tr>
 <td>Current Streak</td>
-<td>0 days</td>
+<td>1 days</td>
 </tr>
 </table>
 <!--END_SECTION:github_analytics-->
