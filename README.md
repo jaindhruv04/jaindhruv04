@@ -27,7 +27,7 @@
 <!--START_SECTION:live_dashboard-->
 | Repository | Latest Activity | Updated |
 |------------|----------------|---------|
-| [scatch](https://github.com/jaindhruv04/scatch) | Add views for admin, cart, product creation, and shop functi | 2026-08-13 |
+| [scatch](https://github.com/jaindhruv04/scatch) | Add user registration functionality, dotenv configuration, a | 2026-08-13 |
 | [careeros](https://github.com/jaindhruv04/careeros) | fix: move useNavigate hook declaration for better readabilit | 2026-08-06 |
 | [CPP-DSA-Leetcode](https://github.com/jaindhruv04/CPP-DSA-Leetcode) | Time: 39 ms (48.89%) - Memory: 19.1 MB (55.68%) - LeetSync | 2026-08-04 |
 
@@ -41,7 +41,7 @@
 
 <p align="center">
   <img
-    src="https://github-readme-stats.vercel.app/api/top-langs/?username=jaindhruv04&layout=compact&theme=github_dark&langs_count=8&cache_seconds=300&t=1786647184999"
+    src="https://github-readme-stats.vercel.app/api/top-langs/?username=jaindhruv04&layout=compact&theme=github_dark&langs_count=8&cache_seconds=300&t=1786650760641"
     alt="Most Used Languages"
   />
 </p>
@@ -68,7 +68,7 @@
 </tr>
 <tr>
 <td>Total Commits</td>
-<td>177</td>
+<td>178</td>
 </tr>
 <tr>
 <td>Current Streak</td>
