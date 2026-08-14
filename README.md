@@ -27,7 +27,7 @@
 <!--START_SECTION:live_dashboard-->
 | Repository | Latest Activity | Updated |
 |------------|----------------|---------|
-| [scatch](https://github.com/jaindhruv04/scatch) | feat: implement remove from cart functionality and enhance c | 2026-08-14 |
+| [solar](https://github.com/jaindhruv04/solar) | feat: update project name to Solar, adjust MongoDB connectio | 2026-08-14 |
 | [careeros](https://github.com/jaindhruv04/careeros) | fix: move useNavigate hook declaration for better readabilit | 2026-08-06 |
 | [CPP-DSA-Leetcode](https://github.com/jaindhruv04/CPP-DSA-Leetcode) | Time: 39 ms (48.89%) - Memory: 19.1 MB (55.68%) - LeetSync | 2026-08-04 |
 
@@ -68,7 +68,7 @@
 </tr>
 <tr>
 <td>Total Commits</td>
-<td>184</td>
+<td>186</td>
 </tr>
 <tr>
 <td>Current Streak</td>
