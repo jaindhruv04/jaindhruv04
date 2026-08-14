@@ -27,7 +27,7 @@
 <!--START_SECTION:live_dashboard-->
 | Repository | Latest Activity | Updated |
 |------------|----------------|---------|
-| [solar](https://github.com/jaindhruv04/solar) | feat: add discount input field and improve styling for produ | 2026-08-14 |
+| [solar](https://github.com/jaindhruv04/solar) | Merge branch 'main' of https://github.com/jaindhruv04/solar | 2026-08-14 |
 | [careeros](https://github.com/jaindhruv04/careeros) | fix: move useNavigate hook declaration for better readabilit | 2026-08-06 |
 | [CPP-DSA-Leetcode](https://github.com/jaindhruv04/CPP-DSA-Leetcode) | Time: 39 ms (48.89%) - Memory: 19.1 MB (55.68%) - LeetSync | 2026-08-04 |
 
@@ -68,7 +68,7 @@
 </tr>
 <tr>
 <td>Total Commits</td>
-<td>191</td>
+<td>195</td>
 </tr>
 <tr>
 <td>Current Streak</td>
