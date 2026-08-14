@@ -27,7 +27,7 @@
 <!--START_SECTION:live_dashboard-->
 | Repository | Latest Activity | Updated |
 |------------|----------------|---------|
-| [scatch](https://github.com/jaindhruv04/scatch) | feat: enhance user cart functionality and improve shop inter | 2026-08-14 |
+| [scatch](https://github.com/jaindhruv04/scatch) | feat: update user model to change contact type to string, en | 2026-08-14 |
 | [careeros](https://github.com/jaindhruv04/careeros) | fix: move useNavigate hook declaration for better readabilit | 2026-08-06 |
 | [CPP-DSA-Leetcode](https://github.com/jaindhruv04/CPP-DSA-Leetcode) | Time: 39 ms (48.89%) - Memory: 19.1 MB (55.68%) - LeetSync | 2026-08-04 |
 
@@ -68,7 +68,7 @@
 </tr>
 <tr>
 <td>Total Commits</td>
-<td>181</td>
+<td>182</td>
 </tr>
 <tr>
 <td>Current Streak</td>
