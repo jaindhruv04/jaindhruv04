@@ -68,7 +68,7 @@
 </tr>
 <tr>
 <td>Total Commits</td>
-<td>195</td>
+<td>161</td>
 </tr>
 <tr>
 <td>Current Streak</td>
