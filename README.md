@@ -27,7 +27,7 @@
 <!--START_SECTION:live_dashboard-->
 | Repository | Latest Activity | Updated |
 |------------|----------------|---------|
-| [solar](https://github.com/jaindhruv04/solar) | feat: implement client-side product search functionality in  | 2026-08-19 |
+| [solar](https://github.com/jaindhruv04/solar) | feat: add user profile page and edit functionality | 2026-08-19 |
 | [careeros](https://github.com/jaindhruv04/careeros) | fix: move useNavigate hook declaration for better readabilit | 2026-08-06 |
 | [CPP-DSA-Leetcode](https://github.com/jaindhruv04/CPP-DSA-Leetcode) | Time: 39 ms (48.89%) - Memory: 19.1 MB (55.68%) - LeetSync | 2026-08-04 |
 
@@ -68,7 +68,7 @@
 </tr>
 <tr>
 <td>Total Commits</td>
-<td>200</td>
+<td>201</td>
 </tr>
 <tr>
 <td>Current Streak</td>
