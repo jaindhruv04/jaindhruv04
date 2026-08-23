@@ -27,7 +27,7 @@
 <!--START_SECTION:live_dashboard-->
 | Repository | Latest Activity | Updated |
 |------------|----------------|---------|
-| [careeros](https://github.com/jaindhruv04/careeros) | feat: implement CRUD operations for DSA problems in DSAContr | 2026-08-23 |
+| [careeros](https://github.com/jaindhruv04/careeros) | feat: implement login and registration functionality with AP | 2026-08-23 |
 | [CPP-DSA-Leetcode](https://github.com/jaindhruv04/CPP-DSA-Leetcode) | Time: 15 ms (92.58%) - Memory: 17.8 MB (94.20%) - LeetSync | 2026-08-23 |
 | [solar](https://github.com/jaindhruv04/solar) | Fix mobile avatar dropdown stacking | 2026-08-20 |
 
@@ -68,7 +68,7 @@
 </tr>
 <tr>
 <td>Total Commits</td>
-<td>217</td>
+<td>219</td>
 </tr>
 <tr>
 <td>Current Streak</td>
