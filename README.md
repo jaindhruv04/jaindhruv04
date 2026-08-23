@@ -27,7 +27,7 @@
 <!--START_SECTION:live_dashboard-->
 | Repository | Latest Activity | Updated |
 |------------|----------------|---------|
-| [careeros](https://github.com/jaindhruv04/careeros) | Remove server-side code and database schema related to user  | 2026-08-22 |
+| [careeros](https://github.com/jaindhruv04/careeros) | feat: initialize server with Prisma and PostgreSQL setup | 2026-08-23 |
 | [solar](https://github.com/jaindhruv04/solar) | Fix mobile avatar dropdown stacking | 2026-08-20 |
 | [CPP-DSA-Leetcode](https://github.com/jaindhruv04/CPP-DSA-Leetcode) | Time: 39 ms (48.89%) - Memory: 19.1 MB (55.68%) - LeetSync | 2026-08-04 |
 
@@ -68,11 +68,11 @@
 </tr>
 <tr>
 <td>Total Commits</td>
-<td>210</td>
+<td>211</td>
 </tr>
 <tr>
 <td>Current Streak</td>
-<td>1 days</td>
+<td>2 days</td>
 </tr>
 </table>
 <!--END_SECTION:github_analytics-->
