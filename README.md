@@ -27,9 +27,9 @@
 <!--START_SECTION:live_dashboard-->
 | Repository | Latest Activity | Updated |
 |------------|----------------|---------|
+| [dhruv-portfolio](https://github.com/jaindhruv04/dhruv-portfolio) | Update portfolio README with accurate project details | 2026-08-24 |
 | [careeros](https://github.com/jaindhruv04/careeros) | Fix Render session cookie handling | 2026-08-24 |
 | [CPP-DSA-Leetcode](https://github.com/jaindhruv04/CPP-DSA-Leetcode) | Time: 15 ms (92.58%) - Memory: 17.8 MB (94.20%) - LeetSync | 2026-08-23 |
-| [solar](https://github.com/jaindhruv04/solar) | Fix mobile avatar dropdown stacking | 2026-08-20 |
 
 <!--END_SECTION:live_dashboard-->
 
@@ -68,7 +68,7 @@
 </tr>
 <tr>
 <td>Total Commits</td>
-<td>237</td>
+<td>244</td>
 </tr>
 <tr>
 <td>Current Streak</td>
