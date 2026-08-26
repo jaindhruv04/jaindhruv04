@@ -27,8 +27,8 @@
 <!--START_SECTION:live_dashboard-->
 | Repository | Latest Activity | Updated |
 |------------|----------------|---------|
+| [careeros](https://github.com/jaindhruv04/careeros) | Refactor error handling in controllers and middleware; remov | 2026-08-26 |
 | [dhruv-portfolio](https://github.com/jaindhruv04/dhruv-portfolio) | Update portfolio README with accurate project details | 2026-08-24 |
-| [careeros](https://github.com/jaindhruv04/careeros) | Fix Render session cookie handling | 2026-08-24 |
 | [CPP-DSA-Leetcode](https://github.com/jaindhruv04/CPP-DSA-Leetcode) | Time: 15 ms (92.58%) - Memory: 17.8 MB (94.20%) - LeetSync | 2026-08-23 |
 
 <!--END_SECTION:live_dashboard-->
@@ -68,11 +68,11 @@
 </tr>
 <tr>
 <td>Total Commits</td>
-<td>244</td>
+<td>246</td>
 </tr>
 <tr>
 <td>Current Streak</td>
-<td>0 days</td>
+<td>1 days</td>
 </tr>
 </table>
 <!--END_SECTION:github_analytics-->
