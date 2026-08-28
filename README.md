@@ -27,7 +27,7 @@
 <!--START_SECTION:live_dashboard-->
 | Repository | Latest Activity | Updated |
 |------------|----------------|---------|
-| [CPP-DSA-Leetcode](https://github.com/jaindhruv04/CPP-DSA-Leetcode) | Time: 62 ms (31.45%) - Memory: 105.7 MB (63.26%) - LeetSync | 2026-08-27 |
+| [CPP-DSA-Leetcode](https://github.com/jaindhruv04/CPP-DSA-Leetcode) | Time: 0 ms (100.00%) - Memory: 10.5 MB (50.33%) - LeetSync | 2026-08-27 |
 | [dhruv-portfolio](https://github.com/jaindhruv04/dhruv-portfolio) | Refine experience and leadership copy | 2026-08-26 |
 | [careeros](https://github.com/jaindhruv04/careeros) | Refactor error handling in controllers and middleware; remov | 2026-08-26 |
 
@@ -68,7 +68,7 @@
 </tr>
 <tr>
 <td>Total Commits</td>
-<td>270</td>
+<td>274</td>
 </tr>
 <tr>
 <td>Current Streak</td>
