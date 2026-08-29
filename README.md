@@ -27,8 +27,8 @@
 <!--START_SECTION:live_dashboard-->
 | Repository | Latest Activity | Updated |
 |------------|----------------|---------|
+| [CPP-DSA-Leetcode](https://github.com/jaindhruv04/CPP-DSA-Leetcode) | Remove Two Sum and Valid Palindrome implementations | 2026-08-29 |
 | [solar](https://github.com/jaindhruv04/solar) | Merge branch 'main' of https://github.com/jaindhruv04/solar | 2026-08-29 |
-| [CPP-DSA-Leetcode](https://github.com/jaindhruv04/CPP-DSA-Leetcode) | Time: 0 ms (100.00%) - Memory: 10.5 MB (50.33%) - LeetSync | 2026-08-27 |
 | [dhruv-portfolio](https://github.com/jaindhruv04/dhruv-portfolio) | Refine experience and leadership copy | 2026-08-26 |
 
 <!--END_SECTION:live_dashboard-->
@@ -68,7 +68,7 @@
 </tr>
 <tr>
 <td>Total Commits</td>
-<td>276</td>
+<td>279</td>
 </tr>
 <tr>
 <td>Current Streak</td>
