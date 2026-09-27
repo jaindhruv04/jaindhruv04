@@ -27,7 +27,7 @@
 <!--START_SECTION:live_dashboard-->
 | Repository | Latest Activity | Updated |
 |------------|----------------|---------|
-| [CPP-DSA-Leetcode](https://github.com/jaindhruv04/CPP-DSA-Leetcode) | Time: 0 ms (100.00%) - Memory: 10.4 MB (70.58%) - LeetSync | 2026-09-22 |
+| [CPP-DSA-Leetcode](https://github.com/jaindhruv04/CPP-DSA-Leetcode) | Remove duplicate after organizing solution into approach fol | 2026-09-27 |
 | [solar](https://github.com/jaindhruv04/solar) | corrected README | 2026-09-13 |
 | [careeros](https://github.com/jaindhruv04/careeros) | Migrate Company Tracker to backend with PostgreSQL integrati | 2026-09-09 |
 
@@ -68,11 +68,11 @@
 </tr>
 <tr>
 <td>Total Commits</td>
-<td>285</td>
+<td>310</td>
 </tr>
 <tr>
 <td>Current Streak</td>
-<td>0 days</td>
+<td>1 days</td>
 </tr>
 </table>
 <!--END_SECTION:github_analytics-->
