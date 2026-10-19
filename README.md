@@ -27,8 +27,8 @@
 <!--START_SECTION:live_dashboard-->
 | Repository | Latest Activity | Updated |
 |------------|----------------|---------|
+| [whoseShare](https://github.com/jaindhruv04/whoseShare) | feat: initialize WhoseShare backend API with Prisma and Post | 2026-10-19 |
 | [CPP-DSA-Leetcode](https://github.com/jaindhruv04/CPP-DSA-Leetcode) | Time: 8 ms (8.75%) - Memory: 18 MB (54.95%) - LeetSync | 2026-10-19 |
-| [whoseShare](https://github.com/jaindhruv04/whoseShare) | Add package.json for server setup with dependencies and scri | 2026-10-19 |
 | [haulage](https://github.com/jaindhruv04/haulage) | feat: integrate Tailwind CSS into the project | 2026-10-17 |
 
 <!--END_SECTION:live_dashboard-->
@@ -68,7 +68,7 @@
 </tr>
 <tr>
 <td>Total Commits</td>
-<td>334</td>
+<td>335</td>
 </tr>
 <tr>
 <td>Current Streak</td>
