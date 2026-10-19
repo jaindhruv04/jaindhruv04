@@ -27,9 +27,9 @@
 <!--START_SECTION:live_dashboard-->
 | Repository | Latest Activity | Updated |
 |------------|----------------|---------|
+| [whoseShare](https://github.com/jaindhruv04/whoseShare) | Add package.json for server setup with dependencies and scri | 2026-10-19 |
 | [haulage](https://github.com/jaindhruv04/haulage) | feat: integrate Tailwind CSS into the project | 2026-10-17 |
 | [careeros](https://github.com/jaindhruv04/careeros) | docs: sync README with current CareerOS features | 2026-10-08 |
-| [CPP-DSA-Leetcode](https://github.com/jaindhruv04/CPP-DSA-Leetcode) | Remove duplicate after organizing solution into approach fol | 2026-09-27 |
 
 <!--END_SECTION:live_dashboard-->
 
@@ -68,11 +68,11 @@
 </tr>
 <tr>
 <td>Total Commits</td>
-<td>325</td>
+<td>326</td>
 </tr>
 <tr>
 <td>Current Streak</td>
-<td>0 days</td>
+<td>1 days</td>
 </tr>
 </table>
 <!--END_SECTION:github_analytics-->
