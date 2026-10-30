@@ -72,7 +72,7 @@
 </tr>
 <tr>
 <td>Current Streak</td>
-<td>1 days</td>
+<td>0 days</td>
 </tr>
 </table>
 <!--END_SECTION:github_analytics-->
