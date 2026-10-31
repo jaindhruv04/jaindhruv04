@@ -27,7 +27,7 @@
 <!--START_SECTION:live_dashboard-->
 | Repository | Latest Activity | Updated |
 |------------|----------------|---------|
-| [CPP-DSA-Leetcode](https://github.com/jaindhruv04/CPP-DSA-Leetcode) | Added README.md file for Longest Consecutive Sequence | 2026-10-28 |
+| [CPP-DSA-Leetcode](https://github.com/jaindhruv04/CPP-DSA-Leetcode) | Time: 0 ms (100.00%) - Memory: 12.5 MB (99.01%) - LeetSync | 2026-10-31 |
 | [whoseShare](https://github.com/jaindhruv04/whoseShare) | feat: initialize WhoseShare backend API with Prisma and Post | 2026-10-19 |
 | [haulage](https://github.com/jaindhruv04/haulage) | feat: integrate Tailwind CSS into the project | 2026-10-17 |
 
@@ -68,11 +68,11 @@
 </tr>
 <tr>
 <td>Total Commits</td>
-<td>359</td>
+<td>367</td>
 </tr>
 <tr>
 <td>Current Streak</td>
-<td>0 days</td>
+<td>1 days</td>
 </tr>
 </table>
 <!--END_SECTION:github_analytics-->
