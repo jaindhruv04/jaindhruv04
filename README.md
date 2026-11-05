@@ -27,8 +27,8 @@
 <!--START_SECTION:live_dashboard-->
 | Repository | Latest Activity | Updated |
 |------------|----------------|---------|
+| [CPP-DSA-Leetcode](https://github.com/jaindhruv04/CPP-DSA-Leetcode) | Time: 63 ms (48.64%) - Memory: 19.1 MB (71.00%) - LeetSync | 2026-11-05 |
 | [Resolve](https://github.com/jaindhruv04/Resolve) | Merge branch 'main' of https://github.com/jaindhruv04/Resolv | 2026-11-02 |
-| [CPP-DSA-Leetcode](https://github.com/jaindhruv04/CPP-DSA-Leetcode) | Time: 9 ms (41.73%) - Memory: 23.1 MB (6.03%) - LeetSync | 2026-11-01 |
 | [whoseShare](https://github.com/jaindhruv04/whoseShare) | feat: initialize WhoseShare backend API with Prisma and Post | 2026-10-19 |
 
 <!--END_SECTION:live_dashboard-->
@@ -68,11 +68,11 @@
 </tr>
 <tr>
 <td>Total Commits</td>
-<td>381</td>
+<td>383</td>
 </tr>
 <tr>
 <td>Current Streak</td>
-<td>0 days</td>
+<td>1 days</td>
 </tr>
 </table>
 <!--END_SECTION:github_analytics-->
