@@ -27,9 +27,9 @@
 <!--START_SECTION:live_dashboard-->
 | Repository | Latest Activity | Updated |
 |------------|----------------|---------|
-| [CPP-DSA-Leetcode](https://github.com/jaindhruv04/CPP-DSA-Leetcode) | Time: 0 ms (100.00%) - Memory: 46.2 MB (87.58%) - LeetSync | 2026-11-06 |
-| [Resolve](https://github.com/jaindhruv04/Resolve) | Merge branch 'main' of https://github.com/jaindhruv04/Resolv | 2026-11-02 |
-| [whoseShare](https://github.com/jaindhruv04/whoseShare) | feat: initialize WhoseShare backend API with Prisma and Post | 2026-10-19 |
+| [careeros](https://github.com/jaindhruv04/careeros) | Merge pull request #1 from jaindhruv04/add-api-tests-and-ci | 2026-11-09 |
+| [solar](https://github.com/jaindhruv04/solar) | docs: rewrite Solar README with verified features and setup | 2026-11-09 |
+| [Resolve](https://github.com/jaindhruv04/Resolve) | Revise README for C++17 and feature enhancements | 2026-11-09 |
 
 <!--END_SECTION:live_dashboard-->
 
@@ -68,11 +68,11 @@
 </tr>
 <tr>
 <td>Total Commits</td>
-<td>385</td>
+<td>394</td>
 </tr>
 <tr>
 <td>Current Streak</td>
-<td>0 days</td>
+<td>1 days</td>
 </tr>
 </table>
 <!--END_SECTION:github_analytics-->
