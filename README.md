@@ -27,7 +27,7 @@
 <!--START_SECTION:live_dashboard-->
 | Repository | Latest Activity | Updated |
 |------------|----------------|---------|
-| [careeros](https://github.com/jaindhruv04/careeros) | feat: implement partial updates for DSA, Company, InterviewE | 2026-11-10 |
+| [careeros](https://github.com/jaindhruv04/careeros) | Merge branch 'main' of https://github.com/jaindhruv04/career | 2026-11-10 |
 | [solar](https://github.com/jaindhruv04/solar) | docs: rewrite Solar README with verified features and setup | 2026-11-09 |
 | [Resolve](https://github.com/jaindhruv04/Resolve) | Revise README for C++17 and feature enhancements | 2026-11-09 |
 
@@ -68,7 +68,7 @@
 </tr>
 <tr>
 <td>Total Commits</td>
-<td>404</td>
+<td>407</td>
 </tr>
 <tr>
 <td>Current Streak</td>
