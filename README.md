@@ -27,7 +27,7 @@
 <!--START_SECTION:live_dashboard-->
 | Repository | Latest Activity | Updated |
 |------------|----------------|---------|
-| [careeros](https://github.com/jaindhruv04/careeros) | feat: add Prettier as a dependency and update formatting in  | 2026-11-11 |
+| [careeros](https://github.com/jaindhruv04/careeros) | Update backend tests workflow with new env variables | 2026-11-11 |
 | [solar](https://github.com/jaindhruv04/solar) | docs: rewrite Solar README with verified features and setup | 2026-11-09 |
 | [Resolve](https://github.com/jaindhruv04/Resolve) | Revise README for C++17 and feature enhancements | 2026-11-09 |
 
@@ -68,7 +68,7 @@
 </tr>
 <tr>
 <td>Total Commits</td>
-<td>409</td>
+<td>411</td>
 </tr>
 <tr>
 <td>Current Streak</td>
